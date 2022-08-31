@@ -1,15 +1,13 @@
-import Navbar from './components/main/Navbar';
+import { Header } from './components/header/headerStyles';
+import Navbar from './components/navbar/Navbar';
 // import './App.css'
 
 const App = () => {
   return (
     <>
-    <header>
-      <h1>
-        <img src="./assets/favicon" alt="" /> Your Page Title
-      </h1>
+    <Header>
       <Navbar/>
-    </header>
+    </Header>
     <main>
       <section>
         Main section
