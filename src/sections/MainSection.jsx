@@ -1,5 +1,6 @@
 import { Header } from '../components/header/headerStyles';
 import { NavBar } from '../components/header/navbar/NavbarStyles';
+import Footer from '../components/footer/Footer';
 // import pexels-cátia-matos-1072179 from './'
 import MainTitle from '../components/mainContent/MainTitle';
 // import Main from './components/mainContent/mainSectionStyle';
@@ -15,14 +16,7 @@ const MainSection = () => {
           <NavBar/>
         </Header>
         <MainTitle/>
-        <footer>
-        footer content
-        <ul>
-          <li>Twitter</li>
-          <li>IG</li>
-          <li>Facebook</li>
-        </ul>
-        </footer>
+        <Footer/>
         </StyledSection>
   );
 };
