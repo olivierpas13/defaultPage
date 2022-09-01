@@ -1,28 +1,29 @@
 import { NavBar } from './NavbarStyles';
-import favicon from './favicon.png';
+import { Logo } from '../headerStyles';
 
 const Navbar = () => {
   return (
     <>
-      <span>
-        <img src={favicon} alt="123" />
-      </span>
-      {/* <h1>
-        Your Page Title
-      </h1> */}
+      <Logo>
+        <h1>
+          <span>
+          PURPLE
+          </span>
+           PAGE</h1>
+      </Logo>
       <NavBar>
         <ul className="navBar">
           <a href="#">
-            <li>demo</li>
+            <li>ABOUT US</li>
           </a>
           <a href="#">
-            <li>demo</li>
+            <li>SERVICES</li>
           </a>
           <a href="#">
-            <li>demo</li>
+            <li>CONTACT US</li>
           </a>
           <a href="#">
-            <li>demo</li>
+            <li>UBICATION</li>
           </a>
         </ul>
       </NavBar>
