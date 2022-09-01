@@ -1,5 +1,6 @@
 import { Header } from '../components/header/headerStyles';
-import { NavBar } from '../components/header/navbar/NavbarStyles';
+// import { NavBar } from '../components/header/navbar/NavbarStyles';
+import Navbar from '../components/header/navbar/Navbar';
 import Footer from '../components/footer/Footer';
 // import pexels-cátia-matos-1072179 from './'
 import MainTitle from '../components/mainContent/MainTitle';
@@ -11,10 +12,10 @@ import { StyledSection } from '../components/general/styledDivs';
 
 const MainSection = () => {
   return (
-        <StyledSection bgimg={'src/assets/pexels-cátia-matos-1072179.jpg'} bgcolor={SecondaryColor} >
-        <Header>
-          <NavBar/>
-        </Header>
+        <StyledSection bgimg={'src/assets/pexels-cátia-matos-1072179.jpg'} >
+        {/* <Header> */}
+          <Navbar/>
+        {/* </Header> */}
         <MainTitle/>
         <Footer/>
         </StyledSection>

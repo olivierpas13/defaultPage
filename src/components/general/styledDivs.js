@@ -9,10 +9,10 @@ export const StyledSection = styled.section`
 
 export const FluidContainer = styled.article`
     width: 100%;
-    margin: 0 5%;
+    margin: 5% 5%;
     ${props => {
         return css`
-            background-color: red;
+            background-color: props.bgcolor;
         `;
     }}
 `;
